@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{920C437E-9656-465D-A0D4-D56C0B0AE2B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BTL_Nhom_7</RootNamespace>
+    <AssemblyName>BTL_Nhom_7</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="database.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formDMMonHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDMMonHoc.Designer.cs">
+      <DependentUpon>formDMMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="intro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intro.Designer.cs">
+      <DependentUpon>intro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDMMonHoc.resx">
+      <DependentUpon>formDMMonHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\gestión-de-proyectos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\monhoc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\class.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\teacher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\cahoc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\phonghoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\chucDanh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\job.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\student.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\major.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\noilamviec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\rank.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\level.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Tìm Kiếm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\DanhMuc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\BaoCao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\intro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="add.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="close.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="repair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tải xuống.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\homepage.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

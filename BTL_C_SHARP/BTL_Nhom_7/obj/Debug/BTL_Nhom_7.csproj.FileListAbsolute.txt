@@ -1,0 +1,12 @@
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\bin\Debug\BTL_Nhom_7.exe.config
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\bin\Debug\BTL_Nhom_7.exe
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\bin\Debug\BTL_Nhom_7.pdb
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.csprojAssemblyReference.cache
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.MainForm.resources
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.Properties.Resources.resources
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.csproj.GenerateResource.cache
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.csproj.CoreCompileInputs.cache
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.exe
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.pdb
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.formDMMonHoc.resources
+E:\CODE\C#\BTL_Nhom_7\BTL_Nhom_7\obj\Debug\BTL_Nhom_7.login.resources
